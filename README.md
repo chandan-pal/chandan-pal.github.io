@@ -1,1 +1,0 @@
-# chandan-pal.github.io
