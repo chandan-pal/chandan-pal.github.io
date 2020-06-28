@@ -9707,6 +9707,30 @@ header .scrolldown a {
 }
 header .scrolldown a:hover { color: #f4623a; }
 
+section .scrolldown a {
+  bottom: 30px;
+  left: 50%;
+  margin-left: -29px;
+  color: #fff;
+  display: block;
+  height: 42px;
+  width: 42px;
+  font-size: 42px;
+  line-height: 42px;
+  border-radius: 100%;
+
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+section .scrolldown a:hover { color: #f4623a; }
+#education .scrolldown a { color: #3f3e3e; }
+#education .scrolldown a:hover { color: #f4623a; }
+#contact .scrolldown a { color: #3f3e3e; }
+#contact .scrolldown a:hover { color: #f4623a; }
+
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
