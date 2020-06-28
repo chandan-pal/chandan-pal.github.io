@@ -9726,10 +9726,37 @@ section .scrolldown a {
 }
 
 section .scrolldown a:hover { color: #f4623a; }
-#education .scrolldown a { color: #3f3e3e; }
-#education .scrolldown a:hover { color: #f4623a; }
+
+#skills .scrolldown a { color: #3f3e3e; }
+#skills .scrolldown a:hover { color: #f4623a; }
+
+
 #contact .scrolldown a { color: #3f3e3e; }
 #contact .scrolldown a:hover { color: #f4623a; }
+
+#skills ul {
+  list-style-type: none;
+}
+#skills li {
+  padding: 10px;
+}
+
+#skills {
+  padding-top: 5rem;
+}
+ 
+#skills figure {
+  display: inline-block;
+  /* margin: 30px; */
+}
+#skills figure img {
+  vertical-align: top;
+}
+#skills figure figcaption {
+  text-align: center;
+  padding-top: 10px;
+}
+
 
 header.masthead {
   padding-top: 10rem;
