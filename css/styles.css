@@ -9594,6 +9594,7 @@ hr.light {
   header.masthead h1 {
     font-size: 3rem;
   }
+  
 }
 
 #mainNav {
@@ -9687,14 +9688,21 @@ header .social li a:hover { color: #f4623a; }
 }
 .social-dark li a { color: #141414; }
 .social li a:hover { color: #f3e9e7; }
-.page-section {
-  /* height: 100vh; */
-  padding-top: 8rem;
-  padding-bottom: 4rem;
+
+@media (max-width: 992px) {
+  .page-section {
+    padding-top: 2rem;
+    padding-bottom: 4;
+  }
+}
+@media (min-width: 992px) {
+  .page-section {
+    padding-top: 8rem;
+    padding-bottom: 4rem;
+  }
 }
 section {
   position: relative;
-  /* height: 100vh; */
 }
 .scrolldown {
   position: absolute;
