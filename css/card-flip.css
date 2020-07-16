@@ -10,14 +10,18 @@
 }
 
 .btn-flip {
-    float: right;
+  float: right;
 }
-.btn-flip a{
-    padding-right: 5px;
-    color: #3f3e3e;
+.btn-flip a {
+  padding-right: 5px;
+  color: #3f3e3e;
 }
-.btn-flip a:hover{
-    color: #f4623a;
+.btn-flip a:hover {
+  color: #f4623a;
+}
+.tech-link a img {
+  padding: 0em;
+  height: 0.8rem;
 }
 
 #projects .card {
@@ -28,24 +32,25 @@
   position: relative;
   border-radius: 0;
 }
-
+#projects .card-body {
+    padding-top: 1rem;
+}
 .project-desc {
-    font-family: cursive;
-    font-size: 0.65rem;
+  font-family: cursive;
+  font-size: 0.65rem;
 }
 
 .project-link {
-    float:right;
+  float: right;
 }
 .project-link a {
-    padding: 0;
-    height: 1.2rem;
-    width: 5rem;
-    font-size: 0.7rem;
-    text-align: center;
-    margin: 0 auto;
+  padding: 0;
+  height: 1.2rem;
+  width: 5rem;
+  font-size: 0.7rem;
+  text-align: center;
+  margin: 0 auto;
 }
-
 
 /*  -------------- flipper---------*/
 .flipper {
