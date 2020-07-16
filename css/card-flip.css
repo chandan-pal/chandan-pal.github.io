@@ -58,6 +58,7 @@
 .front,
 .back {
   height: 100%;
+  width: 100%;
   backface-visibility: hidden;
   position: absolute;
   top: 0;
