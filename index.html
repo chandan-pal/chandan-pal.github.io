@@ -16,6 +16,7 @@
         <!-- Third party plugin CSS-->
         <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" />
         <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/card-flip.css" rel="stylesheet" />
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -27,6 +28,7 @@
                     <ul class="navbar-nav ml-auto my-2 my-lg-0">
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#page-top">Home</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Work</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
@@ -82,13 +84,116 @@
                     <div class="col download">
                         <p><a href="https://drive.google.com/u/0/uc?id=15Pi_DL1Rx6AOoJYfUA4WFyj-zDwWT4Vf&export=download" class="button"><i class="fa fa-download"></i>My Resume</a></p>
                     </div>
+                    <p class="scrolldown"><a class="js-scroll-trigger" href="#projects"><i class="fa fa-arrow-circle-down"></i></a></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- projects -->
+        <section class="page-section" id="projects">
+            <div class="container h-100">
+                <div class="row justify-content-center"><h2>Projects</h2></div>
+                <hr class="underline"></hr>
+                <div class="row justify-content-center">
+                    <div class="col-md-4 flipper">
+                        <div class="card shadow p-3 mb-5 bg-white">
+                            <div class="front">
+                                <div id="angular-login" class="carousel slide carousel-fade" data-ride="carousel" data-interval="1000">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="/assets/img/angular-login-register/login.png" alt="login">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="/assets/img/angular-login-register/register.png" alt="register">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="/assets/img/angular-login-register/register_valid.png" alt="register">
+                                        </div>
+                                    </div>
+                                    <div class="bg-info justify-content-center text-white" style="text-align: center;">
+                                        Angular Login and Register with JWT
+                                    </div>
+                                    <div class="btn-flip">
+                                        <a type="button"><i class="fas fa-arrow-circle-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <button type="button" class="close" aria-label="Close" style="padding-right: 5px;">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                <div class="card-body">
+                                    <h6 class="project-title text-primary">angular-login-register-jwt</h6>
+                                    <div class="project-desc">
+                                        <p>An angular application to demonstrate user <b>registration</b> and <b>authentication</b> functionality utilizing <b>JWT</b> (JSON Web Tokens).</p>
+                                        <p>It can be used as a template to create a standalone client side <b>login and registration UI</b>.</p>
+                                        <p>It uses a backened server built in my earlier project, which authenticates a user and generates JSON Web Token for valid request.</p>
+                                    </div>
+                                    <div class="project-link">
+                                        <a href="https://github.com/chandan-pal/angular-login-register/blob/master/README.md" class="btn btn-outline-info">read more..</a>
+                                        <a href="https://github.com/chandan-pal/angular-login-register" class="btn btn-outline-danger">Source code</a>
+                                        <a href="https://chandan-pal.github.io/angular-login-register/login" class="btn btn-outline-success">demo</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card shadow p-3 mb-5 bg-white">
+                            <div class="card-body">
+                                <h5 class="card-title">Special title treatment</h5>
+                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card shadow p-3 mb-5 bg-white">
+                            <div class="card-body">
+                                <h5 class="card-title">Special title treatment</h5>
+                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-md-4">
+                        <div class="card shadow p-3 mb-5 bg-white">
+                            <div class="card-body">
+                                <h5 class="card-title">Special title treatment</h5>
+                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card shadow p-3 mb-5 bg-white">
+                            <div class="card-body">
+                                <h5 class="card-title">Special title treatment</h5>
+                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card shadow p-3 mb-5 bg-white">
+                            <div class="card-body">
+                                <h5 class="card-title">Special title treatment</h5>
+                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center"></div>
                     <p class="scrolldown"><a class="js-scroll-trigger" href="#skills"><i class="fa fa-arrow-circle-down"></i></a></p>
                 </div>
             </div>
         </section>
         
         <!-- skills-->
-        <section class="page-section" id="skills">
+        <section class="page-section bg-light" id="skills">
             <div class="container h-100">
                 <div class="row h-100 justify-content-center">
                     <div class="col" style="padding: 5%;">
@@ -122,7 +227,7 @@
                 </div>
             </div>
         </section>
-
+        
 
         <!-- education-->
         <section class="page-section bg-dark" id="education">

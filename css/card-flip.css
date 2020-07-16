@@ -1,0 +1,80 @@
+#projects .carousel-item {
+  height: 200px;
+}
+
+#projects .carousel-item img {
+  height: 100%;
+  width: 100%;
+  /* border-radius: 4px; */
+  /* object-fit: cover; */
+}
+
+.btn-flip {
+    float: right;
+}
+.btn-flip a{
+    padding-right: 5px;
+    color: #3f3e3e;
+}
+.btn-flip a:hover{
+    color: #f4623a;
+}
+
+#projects .card {
+  height: 250px;
+  transition: 0.8s;
+  padding: 5px;
+  transform-style: preserve-3d;
+  position: relative;
+  border-radius: 0;
+}
+
+.project-desc {
+    font-family: cursive;
+    font-size: 0.65rem;
+}
+
+.project-link {
+    float:right;
+}
+.project-link a {
+    padding: 0;
+    height: 1.2rem;
+    width: 5rem;
+    font-size: 0.7rem;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+/*  -------------- flipper---------*/
+.flipper {
+  /* padding-left: 0px; */
+  /* padding-right: 0px; */
+  margin-bottom: 10px;
+  perspective: 1000px;
+}
+/* place front face and back at the top left postion */
+.front,
+.back {
+  height: 100%;
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.front {
+  /* place front face above back face with z index */
+  z-index: 2;
+  /* keep front face rotated to 0deg */
+  transform: rotateY(0deg);
+}
+.back {
+  /* keep front face rotated to 180deg */
+  transform: rotateY(180deg);
+}
+/* on flip */
+.flipper.flip .card {
+  transform: rotateY(180deg);
+}
+/*  -------------- flipper---------*/

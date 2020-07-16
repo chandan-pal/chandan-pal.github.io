@@ -9719,7 +9719,6 @@ section {
   width: 42px;
   font-size: 38px;
   line-height: 42px;
-  color: #fff;
   border-radius: 100%;
 
   -webkit-transition: all .4s ease-in-out;
@@ -9729,22 +9728,25 @@ section {
 }
 .scrolldown a:hover { color: #f4623a; }
 
-
-
+#projects .scrolldown a,
+#contact .scrolldown a,
 #skills .scrolldown a { color: #3f3e3e; }
+
+#projects .scrolldown a:hover,
+#contact .scrolldown a:hover,
 #skills .scrolldown a:hover { color: #f4623a; }
-
-
-#contact .scrolldown a { color: #3f3e3e; }
-#contact .scrolldown a:hover { color: #f4623a; }
 
 #skills ul {
   list-style-type: none;
 }
+
 #skills li {
   padding: 10px;
 }
 
+#projects {
+  padding-top: 2rem;
+}
 #skills {
   padding-top: 5rem;
 }
