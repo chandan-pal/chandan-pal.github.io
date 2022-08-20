@@ -11,7 +11,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🧡 I believe in **Open Source.**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;👨‍💻 All of my projects are available at [repositories](https://github.com/pwnmahto?tab=repositories).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;👨‍💻 All of my projects are available at [repositories](https://github.com/chandan-pal?tab=repositories).
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📝 I regularly write articles on [medium.com](https://medium.com/@techie_chandan).
 
@@ -137,24 +137,24 @@
 
 <h2 align="left">🛠  Connect with me:</h2>
 <p align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="https://dev.to/pwnmahto" target="blank">
-        <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="pwnmahto" height="30" width="40" />
+    <a href="https://dev.to/chandanpal" target="blank">
+        <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="chandanpal" height="30" width="40" />
     </a>
-    <a href="https://twitter.com/pwnmahto" target="blank">
-        <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="pwnmahto" height="30" width="40" />
+    <a href="https://github.com/techie_chandan" target="blank">
+        <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="techie_chandan" height="30" width="40" />
     </a>
-    <a href="https://linkedin.com/in/pwnmahto" target="blank">
-        <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="pwnmahto" height="30" width="40" />
+    <a href="https://www.linkedin.com/in/chandanpal/" target="blank">
+        <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="chandanpal" height="30" width="40" />
     </a>
-    <a href="https://instagram.com/pwnmahto" target="blank">
-        <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="pwnmahto" height="30" width="40" />
+    <a href="https://www.instagram.com/techie.chandan/" target="blank">
+        <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="techie.chandan" height="30" width="40" />
     </a>
-    <a href="https://medium.com/pwnmahto" target="blank">
-        <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="pwnmahto" height="30" width="40" />
+    <a href="https://medium.com/@techie_chandan" target="blank">
+        <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="techie_chandan" height="30" width="40" />
     </a>
 </p>
 
 <h2 align="left">&nbsp;</h2>
 <p>
-	<img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=pwnmahto&show_icons=true&locale=en&layout=compact" alt="pwnmahto" />
+	<img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=chandan-pal&show_icons=true&locale=en&layout=compact" alt="chandan-pal" />
 </p>
